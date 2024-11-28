@@ -1,0 +1,43 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Test and coverage reports
+*.cover
+*.coverage
+*.hypothesis/
+.coverage.*
+nosetests.xml
+pytest.xml
+coverage.xml
+*.coveragerc
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+pip-wheel-metadata/
+
+# Python distribution packaging
+build/
+dist/
+*.egg-info/
+.eggs/
