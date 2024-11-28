@@ -27,7 +27,6 @@ def create_model(num_classes, load_pretrain_weights=True):
     backbone = resnet50_fpn_model.resnet50_fpn_backbone(pretrain_path="",
                                      norm_layer=torch.nn.BatchNorm2d,
                                      trainable_layers=3)
-    # 训练自己数据集时不要修改这里的91，修改的是传入的num_classes参数
     # 超声图像中 num_class为2，良性和恶行
     model = FasterRCNN(backbone=backbone, num_classes=91)
 
